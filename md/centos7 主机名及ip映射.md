@@ -6,7 +6,7 @@
 
 ## 主机映射
 
-* 修改`/etc`的`hosts`
+* 修改`/etc`下的`hosts`
 
 ```python
 192.168.245.141 node01
