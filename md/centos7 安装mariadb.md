@@ -18,6 +18,8 @@ rpm -qa | grep mariadb-server
     * `systemctl status mariadb`
   * 停止：
     * `systemctl stop mariadb`
+  * 重启
+    * `systemctl restart mariadb`
 
 * mariadb设置开机启动
   * `systemctl enable mariadb`
@@ -27,4 +29,4 @@ rpm -qa | grep mariadb-server
 
 * 设置远程访问权限
   * 登录linux mariadb
-  * `grant all privileges  on *.* to root@'%' identified by "s04220501229";`
+  * `grant all privileges  on *.* to root@'%' identified by "root";`

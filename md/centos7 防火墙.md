@@ -9,3 +9,4 @@
 #### 禁用防火墙
 
 * `systemctl disable firewalld.service`
+* `systemctl status firewalld.service`
