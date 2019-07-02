@@ -4,8 +4,8 @@
 
 * `hostnamectl set-hostname your_hostname`
 
-#### 主机映射
-__
+## 主机映射
+
 * 修改`/etc`的`hosts`
 
 ```python
